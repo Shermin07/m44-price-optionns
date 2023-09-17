@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navber from './Components/Navber/Navber'
+import Priceloptions from './Components/Pricelist/Priceloptions'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,10 +11,10 @@ function App() {
   return (
     <>
       
-      <h1 className='text-2xl'>Vite + React</h1>
-    <Navber></Navber>
+      
+    <Navber className = 'flex'></Navber>
 
-     
+    <Priceloptions></Priceloptions>
     </>
   )
 }
