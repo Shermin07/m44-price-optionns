@@ -5,6 +5,7 @@ import './App.css'
 import Navber from './Components/Navber/Navber'
 import Priceloptions from './Components/Pricelist/Priceloptions'
 import Linecharts from './Components/Linecharts/Linecharts'
+import Areacharts from './Components/Areacharts/Areacharts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
 
     <Priceloptions></Priceloptions>
     <Linecharts></Linecharts>
+    <Areacharts></Areacharts>
     </>
   )
 }
