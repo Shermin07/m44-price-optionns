@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navber from './Components/Navber/Navber'
 import Priceloptions from './Components/Pricelist/Priceloptions'
+import Linecharts from './Components/Linecharts/Linecharts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
     <Navber className = 'flex'></Navber>
 
     <Priceloptions></Priceloptions>
+    <Linecharts></Linecharts>
     </>
   )
 }
